@@ -1,0 +1,16 @@
+Khan — DevOps Engineer
+
+Summary
+Experienced DevOps engineer with 6+ years designing, building, and operating cloud infrastructure. Focused on automation, reliability, security, and cost optimization.
+
+Core Achievements
+- Reduced deployment lead time by 85% via CI/CD automation.
+- Saved $250k/year through cloud cost optimization measures.
+- Increased platform availability to 99.99% using SLO-driven practices.
+
+Skills
+AWS, GCP, Azure | Terraform | Kubernetes | Docker | GitHub Actions | Jenkins | Prometheus | Grafana | ELK | Ansible | Python | Bash
+
+Contact
+Email: khan@example.com
+LinkedIn: linkedin.com/in/khan

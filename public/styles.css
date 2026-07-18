@@ -1,0 +1,20 @@
+:root{
+  --bg:#0f1724; --card:#0b1220; --accent:#7dd3fc; --muted:#9aa4b2; --white:#e6eef6;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial,Helvetica,sans-serif;margin:0;background:linear-gradient(180deg,#081023 0%, #071427 100%);color:var(--white);line-height:1.5}
+.container{max-width:980px;margin:0 auto;padding:28px}
+.hero{padding:64px 0;text-align:center}
+.hero h1{font-size:44px;margin:0 0 8px}
+.tagline{color:var(--accent);font-weight:600;margin:0}
+.lead{max-width:720px;margin:16px auto;color:var(--muted)}
+.cta{margin-top:18px}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;background:transparent;color:var(--white);border:1px solid rgba(255,255,255,0.08);text-decoration:none;margin:6px}
+.btn.primary{background:linear-gradient(90deg,var(--accent),#60a5fa);color:#012;box-shadow:0 6px 18px rgba(93,173,226,0.12);font-weight:700}
+.card{background:rgba(255,255,255,0.03);padding:20px;border-radius:12px;margin:18px 0}
+h2{margin-top:0;color:var(--accent)}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;color:var(--muted)}
+.project{margin-bottom:12px}
+.footer{padding:18px 0;color:var(--muted);text-align:center;font-size:14px}
+
+@media (max-width:640px){.hero h1{font-size:32px}.container{padding:18px}}
